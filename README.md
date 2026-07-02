@@ -16,16 +16,26 @@ This repository is **not** the full Fuego application. It isolates the geospatia
 ## 2. The Overall System
 
 ```mermaid
-flowchart TD
-    A[React + Mapbox] -->|user click, date, radius| B[FastAPI Backend]
-    B -->|location, weather profile| C[Geospatial Pipeline]
-    C -->|Weather.csv, Forest.asc, Ignitions.csv| B
-    B -->|instance directory| D[Cell2Fire]
-    D -->|ForestGrid CSV timesteps| B
-    B -->|vectorize| E[GeoJSON time-series]
-    E --> A
-```
+flowchart LR
+    subgraph Frontend
+        A["React + Mapbox"]
+    end
 
+    subgraph Backend
+        B["FastAPI"]
+        C["Geospatial Pipeline"]
+    end
+
+    subgraph Simulation
+        D["Cell2Fire"]
+    end
+
+    A -->|"Simulation request"| B
+    B --> C
+    C -->|"Prepared inputs"| D
+    D -->|"Simulation outputs"| B
+    B -->|"GeoJSON"| A
+```
 
 
 
