@@ -1,0 +1,12 @@
+# Geospatial core
+rasterio==1.4.3
+numpy==1.26.4
+pandas==2.2.3
+affine==2.4.0
+shapely==2.0.6
+
+# HTTP extraction
+requests==2.32.3
+
+# Configuration
+python-dotenv==1.0.1

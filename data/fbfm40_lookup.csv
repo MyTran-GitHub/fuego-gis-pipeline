@@ -1,0 +1,47 @@
+grid_value,export_value,descriptive_name,fuel_type,r,g,b,h,s,l
+91,91,Urban,NF,130,130,130,0,0,130
+92,92,Snow/Ice,NF,255,255,255,0,0,255
+93,93,Agricultural,NF,204,204,153,42,70,179
+98,98,Water,NF,115,223,255,138,255,185
+99,99,Barren,NF,204,204,204,0,0,204
+101,101,GR1 - Short sparse dry climate grass,O-1a,255,255,190,42,255,223
+102,102,GR2 - Low load dry climate grass,O-1a,255,255,190,42,255,223
+103,103,GR3 - Low load very coarse humid climate grass,O-1b,230,230,0,42,255,115
+104,104,GR4 - Moderate load dry climate grass,O-1b,230,230,0,42,255,115
+105,105,GR5 - Low load humid climate grass,O-1b,230,230,0,42,255,115
+106,106,GR6 - Moderate load humid climate grass,O-1b,230,230,0,42,255,115
+107,107,GR7 - High load dry climate grass,O-1b,230,230,0,42,255,115
+108,108,GR8 - High load very coarse humid climate grass,O-1b,230,230,0,42,255,115
+109,109,GR9 - Very high load humid climate grass,O-1b,230,230,0,42,255,115
+121,121,GS1 - Low load dry climate grass-shrub,O-1a,255,255,190,42,255,223
+122,122,GS2 - Moderate load dry climate grass-shrub,O-1b,230,230,0,42,255,115
+123,123,GS3 - Moderate load humid climate grass-shrub,O-1b,230,230,0,42,255,115
+124,124,GS4 - High load dry climate grass-shrub,O-1b,230,230,0,42,255,115
+141,141,SH1 - Low load dry climate shrub,S-1,251,190,185,3,227,218
+142,142,SH2 - Moderate load dry climate shrub,S-2,247,104,161,-272,229,176
+143,143,SH3 - Moderate load humid climate shrub,S-2,247,104,161,-272,229,176
+144,144,SH4 - Low load humid climate timber-shrub,S-2,247,104,161,-272,229,176
+145,145,SH5 - High load dry climate shrub,S-3,174,1,126,-285,252,88
+146,146,SH6 - Low load humid climate shrub,S-1,251,190,185,3,227,218
+147,147,SH7 - Very high load dry climate shrub,S-3,174,1,126,-285,252,88
+148,148,SH8 - High load humid climate shrub,S-3,174,1,126,-285,252,88
+149,149,SH9 - Very high load humid climate shrub,S-3,174,1,126,-285,252,88
+161,161,TU1 - Light load dry climate timber-grass-shrub,M-1,255,211,127,28,255,191
+162,162,TU2 - Moderate load humid climate timber-shrub,M-2,255,170,0,28,255,128
+163,163,TU3 - Moderate load humid climate timber-grass-shrub,M-2,255,170,0,28,255,128
+164,164,TU4 - Dwarf conifer with understory,M-2,255,170,0,28,255,128
+165,165,TU5 - Very high load dry climate timber-shrub,M-3,99,0,0,0,255,50
+181,181,TL1 - Low load compact conifer litter,C-2,34,102,51,95,128,68
+182,182,TL2 - Low load broadleaf litter,D-1,196,189,151,35,70,174
+183,183,TL3 - Moderate load conifer litter,C-3,131,199,149,96,96,165
+184,184,TL4 - Small downed logs,C-4,112,168,0,57,255,84
+185,185,TL5 - High load conifer litter,C-5,223,184,230,206,122,207
+186,186,TL6 - Moderate load broadleaf litter,D-1,196,189,151,35,70,174
+187,187,TL7 - Large downed logs,C-7,112,12,242,188,231,127
+188,188,TL8 - Long-needle litter,C-3,131,199,149,96,96,165
+189,189,TL9 - Very high load broadleaf litter,D-2,137,112,68,27,86,103
+201,201,NB1 - Urban/Developed,NF,130,130,130,0,0,130
+202,202,NB2 - Snow/Ice,NF,255,255,255,0,0,255
+203,203,NB3 - Agricultural,NF,204,204,153,42,70,179
+204,204,NB8 - Open Water,NF,115,223,255,138,255,185
+205,205,NB9 - Bare Ground,NF,204,204,204,0,0,204

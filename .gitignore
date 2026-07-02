@@ -1,0 +1,22 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Pipeline outputs
+data/raw/
+data/instances/
+data/simulations/
+*.tif
+*.asc
+*.zip
+
+# IDE
+.idea/
+.vscode/
