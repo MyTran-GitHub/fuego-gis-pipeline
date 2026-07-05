@@ -7,6 +7,8 @@ Portfolio repository documenting my contribution to the geospatial preprocessing
 
 ## 1. Project Overview
 
+Demo video: https://drive.google.com/file/d/1cPL38vz4GEysQabz_Nmnfgb5BnocgzsX/view?usp=sharing
+
 Fuego is a cloud-native wildfire simulation platform that allows users to evaluate how wildfire spread changes under different ignition locations and weather conditions. The system combines publicly available geospatial datasets from USGS LANDFIRE with the Cell2Fire simulation engine and presents results through an interactive React + Mapbox interface. Users click a location on the map, choose a fire date and weather window, and watch a time-stepped burn animation — without ever needing to understand raster formats, coordinate reference systems, or simulation file conventions.
 
 This repository is **not** the full Fuego application. It isolates the geospatial preprocessing subsystem I built and maintained: the layer that turns raw federal landscape data into the exact file-based inputs Cell2Fire expects, and that later converts simulation grids into lightweight GeoJSON for the frontend.
